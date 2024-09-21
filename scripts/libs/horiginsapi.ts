@@ -148,7 +148,7 @@ function clearOrigin(user: Player) {
         }
 
     }
-    var slots = ["Body", "Chest", "Feet", "Head", "Legs", "Offhand"]
+    var slots = [EquipmentSlot.Chest, EquipmentSlot.Feet, EquipmentSlot.Head, EquipmentSlot.Legs, EquipmentSlot.Offhand]
     const equipmentCompPlayer = user.getComponent(EntityComponentTypes.Equippable);
     if (equipmentCompPlayer) {
         for (let i = 0; i < slots.length; i++) {
