@@ -1,0 +1,44 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Hungry"
+		]
+	},
+	"header": {
+		"name": "Example Origin",
+		"description": "Example origin",
+		"min_engine_version": [
+			1,
+			21,
+			0
+		],
+		"uuid": "23720690-0502-4e47-a041-11be4e54d1c1",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "1d71b256-8391-400e-aba4-15fe562c82d9",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "16670ca6-8706-499f-804d-b5891994aa2e",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
